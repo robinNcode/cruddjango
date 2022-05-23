@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <title>Crud with django</title>
+    <link rel="stylesheet" href="{% static 'enroll/css/bootstrap.min.css' %}">
+</head>
+<body>
+
+<div class="container">
+    <h2>{% page_name %}</h2>
+    {% block content %}
+    {% endblock content %}
+</div>
+
+
+<script src="{% static 'enroll/js/jquery.min.css' %}"></script>
+<script src="{% static 'enroll/js/popper.min.css' %}"></script>
+<script src="{% static 'enroll/js/bootstrap.min.css' %}"></script>
+</body>
+</html>
