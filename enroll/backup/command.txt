@@ -1,0 +1,7 @@
+create djangoApp -> django-admin startproject project_name
+your module -> python manage.py startapp module_name
+run server -> python manage.py runserver
+create migration -> python manage.py makemigrations
+for migrate -> python manage.py migrate
+create admin superuser -> python manage.py createsuperuser
+
